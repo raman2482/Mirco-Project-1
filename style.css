@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+}
+#main {
+  background-color: #ffcd9e;
+  font-family: sans-serif;
+}
+
+#header {
+  display: flex;
+}
+
+h1 {
+  line-height: 45px;
+}
+#header-text p {
+  line-height: 30px;
+}
+
+#header-text {
+  padding: 15px 94px 20px 94px;
+  margin: 30px;
+}
+div input {
+  height: 25px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid black;
+  width: 230px;
+}
+div button {
+  height: 49px;
+  background-color: #282828;
+  color: white;
+  border-radius: 5px;
+  margin-left: 10px;
+  width: 170px;
+}
+img {
+  height: 450px;
+  width: 450px;
+  margin-right: 70px;
+}
+
+#footer {
+  height: 15em;
+  background-color: #282828;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-child {
+  color: white;
+  padding: 34px;
+}
+
+li {
+  margin-top: 10px;
+}
+
+#icon {
+  display: flex;
+  justify-content: end;
+}
+
+#linkedin,
+#insta {
+  margin-left: 5px;
+  color: #ffcd9e;
+}
+
+#footer-child-2 {
+  text-align: right;
+  margin-right: 160px;
+}
+
+#footer-child-1 {
+  margin-left: 90px;
+}
